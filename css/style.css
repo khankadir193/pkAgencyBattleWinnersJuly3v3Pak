@@ -1,0 +1,226 @@
+*{
+  margin: 0px;
+  padding: 0px;
+}
+@font-face {
+  font-family: 'Proxima';
+  src: url('ProximaNova.TTF') format('truetype');
+}
+body{
+  color: #fff;
+  background: linear-gradient(to bottom, #3d2b7b, #3c2b7b, #58048e);
+  font-family: Proxima;
+  background: rgb(13 13 39) url(../img/Bg.png);
+  background-size: contain;
+  overflow-x: hidden;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+.headerpic{
+  width: 100%;
+}
+
+.rewards{
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  margin: auto;
+  display: block;
+}
+
+.col-two{
+  display: grid;
+    grid-template-columns: 10% 90%;
+}
+
+.col-three{
+  display: grid;
+  grid-template-columns: 31% 38% 31%;
+}
+
+.talent-1{
+  width: 70%;
+  align-items: center;
+  margin: auto;
+  display: block;
+}
+
+.talent-2{
+  width: 60%;
+  margin: auto;
+  display: block;
+  margin-top: 12vw;
+}
+
+.talent-3{
+  width: 60%;
+  align-items: center;
+  padding-left: 5vw;
+  margin-top: 12vw;
+}
+
+.tag-4{
+  text-align: center;
+  font-size: 2.8vw;
+  width: 80%;
+  margin: auto;
+}
+
+.tag-5{
+  text-align: center;
+  font-size: 2.6vw;
+  width: 90%;
+}
+
+.tag-6{
+  text-align: center;
+  font-size: 2.6vw;
+  width: 90%;
+}
+
+.tag-7{
+  text-align: center;
+  font-size: 2.8vw;
+  width: 75%;
+  margin: auto;
+}
+
+.col-two{
+  display: grid;
+  grid-template-columns: 50% 50%;
+  margin: auto;
+}
+
+.col-two2{
+  display: grid;
+  grid-template-columns: 50% 50%;
+  margin: auto;
+  margin-top: -30vw;
+}
+
+.cup{
+  width: 100%;
+}
+
+.heading{
+  text-align: center;
+  color: #f1d587;
+  margin-bottom: 5vw;
+}
+
+/*-------------------------------------------------------------------------------------------------------------*/
+
+.tabr1 {
+  overflow: hidden;
+  border: 2px solid gray;
+  grid-template-columns: 50% 50%;
+  display: grid;
+  background-size: 100% 100%;
+  background: linear-gradient(45deg, black, black);
+  border-radius: 223vw;
+  margin: auto;
+  width: 50%;
+  margin-top: 5vw;
+  margin-bottom: 5vw;
+}
+
+.tabr1 button {
+  background-color: inherit;
+  float: left;
+  cursor: pointer;
+  padding: 7px 16px;
+  font-size: 4vw;
+  color: grey;
+  border: none;
+  outline: none;
+}
+.tabr1 button:hover {
+  background-color: gray;
+}
+.tabr1 button.active {
+  background: url(../img/gold-button.png);
+  color: #202020;
+  background-size: 100% 100%;
+  font-size: 4vw;
+  border: none;
+}
+
+.rewards-bg1{
+  background: url(../img/LeaderBoard-BG.png);
+  background-size: 100% 100%;
+  display: grid;
+  margin: auto;
+  overflow: hidden;
+  width: 77%;
+  margin-bottom: 5vw;
+}
+
+.reward1{
+  width: 30%;
+  display: block;
+  margin: auto;
+  margin-top: 24vw;
+  margin-bottom: 24vw;
+}
+
+.reward-text{
+  width: 77%;
+  margin: auto;
+  text-align: center;
+  margin-top: -22vw;
+  margin-bottom: 10vw;
+  font-size: 4vw;
+  display: block;
+}
+
+.col-two1{
+  margin: auto;
+  /* display: block; */
+  text-align: center;
+}
+
+.strip-bg{
+  background: url(../img/leaderboard\ Strip.png);
+  background-size: 100% 90%;
+  background-repeat: no-repeat;
+  font-size: 2.8vw;
+}
+
+.strip-lb{
+  width: 100%;
+}
+
+.lb-img{
+  width: 40%;
+}
+
+.bean{
+  width: 13%;
+}
+
+.numbers{
+  width: 10%;
+}
+
+.cup1{
+  width: 50%;
+  margin: auto;
+  display: block;
+}
+
+.bean-pot{
+  text-align: center;
+  width: 45%;
+  border: 5px solid #eab470;
+  margin: 4vw auto;
+  padding: 1vw;
+  border-radius: 4vw;
+  color: gold;
+  font-size: 6vw;
+}
+
+
+.bean-pot-coin{
+  width: 15%;
+  padding: 0vw 2vw 0vw;
+}
